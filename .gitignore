@@ -1,0 +1,77 @@
+# Turbo Loader Development - Git Ignore
+
+# Build artifacts
+build/
+dist/
+*.exe
+*.dmg
+*.pkg
+*.zip
+
+# Temporary files
+*.tmp
+*.temp
+*~
+temp/
+tmp/
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Testing artifacts
+test_results/
+coverage/
+testing_output/
+
+# Environment variables
+.env
+*.env
+
+# Development only files
+dev_notes.txt
+scratch.py
+debug_*
+*_backup.*
+
+# Commercial packages (keep in deployment repo only)
+commercial_package/
+*Commercial*
+*commercial*
+
+# Distribution temp
+dist_temp/
+package_temp/
+deployment_ready/
+
+# Docker build context
+docker_build/
+.dockerignore
+
+# Node modules (if any)
+node_modules/
+
+# User-specific files
+config_local.json
+user_settings.json
